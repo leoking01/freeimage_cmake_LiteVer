@@ -85,7 +85,7 @@ IF(ENABLE_JXR)
 ENDIF()
 
 
-add_library ( freeimage ${LIBS} )
+add_library ( freeimage     ${LIBS} )
 
 install ( TARGETS freeimage DESTINATION lib )
 install ( FILES Source/FreeImage.h DESTINATION include )
